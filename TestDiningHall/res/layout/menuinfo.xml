@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0099ff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff" >
+
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:text="" />
+ 
+       <!--  
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:text="&lt;" />
+            -->
+        
+        <CheckBox
+            android:id="@+id/info_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11" />
+        
+        <TextView
+            android:id="@+id/info_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.89"
+            
+            android:text="checkbox" />
+
+        
+
+        <!--
+         above two 2 commands are require for button insdie listview
+         to fire onClick event when clicked.
+        -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7.5"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#ffffffff" />
+
+                    <TextView
+                        android:id="@+id/info_textView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="9"
+                        android:background="#ffffffff"
+                        android:ems="10" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="#ffffffff" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/nutinfo_imageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:src="@drawable/not_available2" />
+                
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+<!-- Start of Bottom 4 buttons  -->
+
+<LinearLayout
+       android:id="@+id/linearLayout1"
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1.2" >
+
+    <Button
+           android:id="@+id/home_button"
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="24"
+           android:background="#FFFFB2"
+           android:text="@string/home"
+           android:textColor="#ff000000"
+           android:textSize="13sp"
+           android:textStyle="bold" />
+    
+    
+        <Button
+             android:id="@+id/diningHall_button"
+             android:layout_width="0dp"
+             android:layout_height="fill_parent"
+             android:layout_weight="24"
+             android:background="#FFFFB2"
+             android:text="@string/halls"
+             android:textColor="#ff000000"
+             android:textSize="13sp"
+             android:textStyle="bold" />
+
+        <Button
+           android:id="@+id/meal_button"
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="24"
+           android:background="#FFFFB2"
+           android:text="@string/meals"
+           android:textColor="#ff000000"
+           android:textSize="15sp"
+           android:textStyle="bold" />
+
+       
+<!-- 
+   		<Button
+           android:id="@+id/allMenu_button"
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="24"
+           android:background="#FFFFB2"
+           android:text="@string/all_dishes"
+           android:textColor="#ff000000"
+           android:textSize="13sp"
+           android:textStyle="bold" />
+            -->
+
+       <Button
+           android:id="@+id/favorite_button"
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_weight="24"
+           android:background="#FFFFB2"
+           android:text="@string/favorites"
+           android:textColor="#ff000000"
+           android:textSize="13sp"
+           android:textStyle="bold" />
+   </LinearLayout>
+ <!-- End of Bottom 4 buttons  -->
+</LinearLayout>

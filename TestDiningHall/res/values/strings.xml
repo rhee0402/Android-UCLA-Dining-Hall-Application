@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDiningHall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">home</string>
+    <string name="meals">meals</string>
+    <string name="halls">halls</string>
+    <string name="all_dishes">dishes</string>
+    <string name="favorites">favorites</string>
+    <string name="covel">Covel Commons</string>
+    <string name="deneve">DeNeve</string>
+    <string name="bruinplate">Bruin Plate</string>
+    <string name="reiber">FEAST at Reiber</string>
+    <string name="hedrick">Hedrick</string>
+</resources>

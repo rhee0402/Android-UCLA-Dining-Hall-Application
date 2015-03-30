@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nutinfo_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1.3" >
+
+  	</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="" />
+    
+   <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Nutrition Facts" />
+  
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.5" >
+
+ 		<TextView
+ 		    android:id="@+id/nfserv"
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="Serving Size" 
+ 		    android:textSize="15sp"/>
+
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.2"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	 	 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.4" >
+
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="Amount per serving"
+ 		    android:textSize="12sp" />
+
+ 	</LinearLayout>
+ 	
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+    
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfcaltext"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Calories" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nffatcal"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Fat cal." 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout>
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.08"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+  	
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.4" >
+
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="match_parent"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="% Daily Value*"
+ 		    android:textSize="11sp"
+ 		    android:gravity="right" />
+
+ 	</LinearLayout>
+ 	
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nftotalfat"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Total Fat" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nffatperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 	
+ 	 
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.2"
+ 		    android:text="" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfsatfat"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Saturated Fat" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nfsatfatperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.1"
+ 		    android:text="" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nftransfat"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Trans Fat" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+
+
+  	</LinearLayout>  	
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	 
+ 	 <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfchol"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Cholestrol" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nfcholperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 
+ 	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfsod"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Sodium" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nfsodperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 
+  	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfcarb"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Total Carbohydrate" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nfcarbperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 	
+ 	 
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.2"
+ 		    android:text="" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfdietfib"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Dietary Fiber" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		<TextView
+ 		    android:id="@+id/nfdietfibperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout> 
+ 	 <LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.1"
+ 		    android:text="" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfsugar"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Sugars" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+
+  	</LinearLayout>  	
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	 
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfprotein"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="1"
+ 		    android:text="Protein" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+
+
+  	</LinearLayout> 
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.2"
+ 	    android:background="#000000" >
+ 	</LinearLayout> 
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfvita"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.5"
+ 		    android:text="Vitamin A" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfvitaperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.3"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.2"
+ 		    android:text="." 
+ 		    android:gravity="center"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfvitc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.5"
+ 		    android:text="Vitamin C" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfvitcperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.3"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+ 		
+
+  	</LinearLayout> 
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="0.5" >
+ 		<TextView
+ 		    android:id="@+id/nfcalc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.5"
+ 		    android:text="Calcium" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfcalcperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.3"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/textView4"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.2"
+ 		    android:text="." 
+ 		    android:gravity="center"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfiron"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.5"
+ 		    android:text="Iron" 
+ 		    android:gravity="left"
+ 		    android:textSize="14sp"/>
+ 		
+ 		<TextView
+ 		    android:id="@+id/nfironperc"
+ 		    android:layout_width="0dp"
+ 		    android:layout_height="wrap_content"
+ 		    android:layout_weight="0.3"
+ 		    android:text="%" 
+ 		    android:gravity="right"
+ 		    android:textSize="14sp"/>
+ 		
+
+  	</LinearLayout> 
+  	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.02"
+ 	    android:background="#000000" >
+ 	</LinearLayout>
+ 	
+ 	<LinearLayout
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="0dp"
+ 	    android:layout_weight="0.4" >
+ 	
+ 	 	<TextView
+	    android:id="@+id/textView4"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="*Percent Daily Values (DV) are based on a 2,000 calorie diet"
+	    android:textSize="11sp" 
+	    android:gravity="center"/>
+
+ 	</LinearLayout>
+ 	
+ 	
+ 
+ 	
+ 	
+ 	<LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2" >
+
+  	</LinearLayout>
+  	
+
+</LinearLayout>

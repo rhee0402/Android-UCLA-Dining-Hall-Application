@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testdininghall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    
+    
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.testdininghall.StarterActivity"
+            android:label="Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity    
+            android:name="com.example.testdininghall.MealActivity"
+            android:label="Meals" ></activity>
+          
+        <activity    
+            android:name="com.example.testdininghall.FavoriteActivity"
+            android:label="Favorites" ></activity>
+        <activity    
+            android:name="com.example.testdininghall.MenuInfoActivity"
+            android:label="Menu Information" ></activity>
+        
+         <activity    
+            android:name="com.example.testdininghall.DiningHallActivity"
+            android:label="Dining Halls" ></activity>
+        <activity
+            android:name="com.example.testdininghall.HomeActivity"
+            android:label="Home" ></activity>
+         
+         
+    </application>
+
+</manifest>
